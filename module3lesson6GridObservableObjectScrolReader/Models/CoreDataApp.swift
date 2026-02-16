@@ -28,7 +28,6 @@ struct BeverageCatalog: Identifiable {
     let id = UUID()
     let beverages: [Beverage]
     
-    // Удобные вычисляемые свойства
     var lemonades: [Beverage] {
         beverages.filter { $0.category == .lemonade }
     }

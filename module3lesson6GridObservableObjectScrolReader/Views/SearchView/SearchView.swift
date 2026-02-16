@@ -9,7 +9,7 @@ struct SearchView: View {
                 ZStack(alignment: .leading) {
                     RoundedRectangle(cornerRadius: 22)
                         .fill(.clear)
-                        .frame(width: .infinity, height: 60)
+                        .frame(height: 60)
                         .overlay(
                             RoundedRectangle(cornerRadius: 22)
                                 .stroke(.searchButton, lineWidth: 1)
@@ -27,7 +27,6 @@ struct SearchView: View {
                     }
                     .padding(.leading, 19)
                 }
-               
             }
 
             Button {
