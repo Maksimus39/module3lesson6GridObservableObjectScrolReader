@@ -8,7 +8,7 @@ struct BeverageCardView: View {
             VStack(alignment: .leading, spacing: 10) {
                 Image(beverage.name)
                     .resizable()
-                    .frame(width: 149, height: 165)
+                    .frame(height: 165)
                     .cornerRadius(22)
                 
                 VStack(alignment: .leading, spacing: 8) {

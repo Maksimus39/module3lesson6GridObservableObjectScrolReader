@@ -26,5 +26,6 @@ struct HeaderView: View {
                     .frame(width: 24, height: 24)
             }
         }
+        .buttonStyle(PlainButtonStyle())
     }
 }

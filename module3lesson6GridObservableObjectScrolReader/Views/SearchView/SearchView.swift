@@ -43,5 +43,6 @@ struct SearchView: View {
                 }
             }
         }
+        .buttonStyle(PlainButtonStyle())
     }
 }

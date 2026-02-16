@@ -23,6 +23,7 @@ struct CategoryView: View {
                     .cornerRadius(8)
                 }
             }
+            .buttonStyle(PlainButtonStyle())
             .padding(.vertical, 4)
         }
     }
