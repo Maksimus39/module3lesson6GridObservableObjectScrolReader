@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var viewModel = ContentViewModel()
+    @ObservedObject private var viewModel = ContentViewModel()
     @State private var selectedCategory: BeverageCategory = .lemonade
     
     var body: some View {
