@@ -2,15 +2,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(spacing: 20) {
+            HeaderView()
+            
+            VStack(spacing: 30) {
+                SearchView()
+            }
+            
+            Spacer()
         }
-        .padding()
+        .padding(28)
     }
 }
+
+
+
+
 
 #Preview {
     ContentView()
